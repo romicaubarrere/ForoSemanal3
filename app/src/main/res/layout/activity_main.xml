@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_beige">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:hint="Nueva tarea"
+        android:textColor="@color/text_dark_brown"
+        android:background="@color/edit_text_bg"
+        android:textColorHint="@color/edit_text_hint"
+        style="@style/EditTextStyle"
+         android:padding="10dp"
+         android:textSize="16sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        style="@style/ButtonStyle"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <ListView
+        android:id="@+id/listViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_beige"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

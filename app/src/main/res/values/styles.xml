@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/background_beige</item>
+        <item name="android:textColor">@color/text_dark_brown</item>
+    </style>
+
+    <!-- EditText style -->
+    <style name="EditTextStyle">
+        <item name="android:background">@color/edit_text_bg</item>
+        <item name="android:textColor">@color/text_dark_brown</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="ButtonStyle">
+        <item name="android:background">@color/button_brown</item>
+        <item name="android:textColor">@color/button_text_beige</item>
+    </style>
+
+</resources>
