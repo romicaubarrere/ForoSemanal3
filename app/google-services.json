@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "607021350185",
+    "firebase_url": "https://forosemanal3-default-rtdb.firebaseio.com",
+    "project_id": "forosemanal3",
+    "storage_bucket": "forosemanal3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607021350185:android:eff8c86beaf6bbf8a70b38",
+        "android_client_info": {
+          "package_name": "com.forosemana3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVF-5wcdHpfBX1xJ1dbFrG_kp-a4_xmMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
